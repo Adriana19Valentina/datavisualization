@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis of ATMs in Romania</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background:#00A478;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #main {
+            padding: 20px;
+            background: #ffffff;
+            margin-top: 20px;
+        }
+        footer {
+            background: #00A478;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Analysis of ATMs in Romania</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Context</a></li>
+                    <li><a href="#map">To Map</a></li>
+                    <li><a href="#stats">Statistics</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="intro">
+<!--            <h2>Distribuție și Statistici Regionale</h2>-->
+            <p>This study presents the distribution of ATMs in Romania and provides a detailed statistical analysis by county. Using updated data from <a href="https://ec.europa.eu/eurostat" target="_blank">Eurostat</a> and <a href="https://www.worldbank.org/en/homet" target="_blank">World Bank</a>, the analysis provides a clear picture of how ATMs are distributed in different regions of the country.</p>
+        </section>
+
+        <section id="map">
+            <h2>Interactive Map of ATMs</h2>
+            <iframe src="romania.html"></iframe>
+        </section>
+
+        <section id="stats">
+            <h2>Statistics by County</h2>
+            <p>In this section, various statistics will be presented regarding the number of ATMs, population and other relevant data for each county in Romania.</p>
+<iframe title="romania_final" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=f51acef8-e7f1-4eff-8b94-3e9b1686c1eb&autoAuth=true&ctid=08a1a72f-fecd-4dae-8cec-471a2fb7c2f1" frameborder="0" allowFullScreen="true"></iframe>            </table>
+        </section>
+    </div>
+
+    <footer>
+        <p>Project by Adriana Costache, Claudia Voicila, Bogdan Raia</p>
+    </footer>
+</body>
+</html>
